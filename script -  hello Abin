@@ -1,0 +1,7 @@
+var name= prompt("enter your name");
+var flname = name.slice(0,1);
+var uflname = flname.toUpperCase();
+var rname= name.slice(1,name.length);
+var rofname=rname.toLowerCase();
+var Fname= uflname+rofname;
+alert("Hello " + Fname);
