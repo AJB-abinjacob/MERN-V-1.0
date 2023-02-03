@@ -1,0 +1,6 @@
+prompt("What is Your Name : ");
+prompt("What is Their Name : ");
+var levelScore=Math.random()*100;
+levelScore= Math.floor(levelScore+1);
+alert("You Match : " + levelScore +"%");
+console.log(levelScore);
